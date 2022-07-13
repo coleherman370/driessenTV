@@ -1,0 +1,8 @@
+When first starting to work perform a pull:
+	git pull
+
+When pushing changes, run a push:
+	git status
+	git add *
+	git commit -m "Type out your update message"
+	git push
