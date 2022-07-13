@@ -34,7 +34,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 7;
+  z-index: 31;
 
   display: flex;
   align-items: center;
@@ -44,25 +44,176 @@ body {
   transform: translateX( 1280px );
   background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-1.jpg?raw=true );
   
-  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+  animation: opaqTransition 32s cubic-bezier(0, 0, 0, 0.97) infinite;
 }
 
 
 .card_part.card_part-two {
-  z-index: 6;
+  z-index: 30;
   background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-2.jpg?raw=true );
-  animation-delay: 7s;
+  animation-delay: 15s;
 }
 
 .card_part.card_part-three {
-  z-index: 5;
-  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/3.jpg?raw=true );
+  z-index: 29;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-3.jpg?raw=true );
   animation-delay: 14s;
 }
 
 .card_part.card_part-four {
+  z-index: 28;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-4.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-five {
+  z-index: 27;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-5.jpg?raw=true );
+  animation-delay: 7s;
+}
+
+.card_part.card_part-six {
+  z-index: 26;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-6.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-seven {
+  z-index: 25;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-7.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-eight {
+  z-index: 24;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-8.jpg?raw=true );
+  animation-delay: 7s;
+}
+
+.card_part.card_part-nine {
+  z-index: 23;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-9.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-ten {
+  z-index: 22;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-10.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-eleven {
+  z-index: 21;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-11.jpg?raw=true );
+  animation-delay: 7s;
+}
+
+.card_part.card_part-twelve {
+  z-index: 19;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-12.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-thirteen {
+  z-index: 18;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-13.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-fourteen {
+  z-index: 17;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-14.jpg?raw=true );
+  animation-delay: 7s;
+}
+
+.card_part.card_part-fifteen {
+  z-index: 16;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-15.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-sixteen {
+  z-index: 15;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-16.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-seventeen {
+  z-index: 14;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-17.jpg?raw=true );
+  animation-delay: 7s;
+}
+
+.card_part.card_part-eighteen {
+  z-index: 13;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-18.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-nineteen {
+  z-index: 12;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-19.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-twenty {
+  z-index: 11;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-20.jpg?raw=true );
+  animation-delay: 7s;
+}
+
+.card_part.card_part-twenty-one {
+  z-index: 10;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-21.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-twenty-two {
+  z-index: 9;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-22.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-twenty-three {
+  z-index: 8;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-23.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-twenty-four {
+  z-index: 7;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-24.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-twenty-five {
+  z-index: 6;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-25.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-twenty-six {
+  z-index: 5;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-26.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-twenty-seven {
   z-index: 4;
-  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/4.jpg?raw=true );
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-27.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-twenty-eight {
+  z-index: 3;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-28.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-twenty-nine {
+  z-index: 2;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-29.jpg?raw=true );
+  animation-delay: 14s;
+}
+
+.card_part.card_part-thirty {
+  z-index: 1;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-30.jpg?raw=true );
+  animation-delay: 21s;
+}
+.card_part.card_part-thirty-one {
+  z-index: 31;
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-31.jpg?raw=true );
   animation-delay: 21s;
 }
 
