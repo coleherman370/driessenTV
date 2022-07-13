@@ -55,7 +55,7 @@ body {
   height: 100%;
   
   transform: translateX( 700px );
-  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/1.jpg?raw=true );
+  background-image: url( https://github.com/coleherman370/driessenTV/blob/main/static/images/Company%20TV%20Slide-1.jpg?raw=true );
   
   animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
 }
