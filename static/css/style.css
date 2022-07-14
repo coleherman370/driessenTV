@@ -3,12 +3,12 @@
 *::after { box-sizing: border-box; }
 
 html,
-.jumbotron {
+/*.jumbotron {
     background-image: url("set link here for banner here");
     background-size: 100% 100%;
     text-align: center;
     font-family: 'Lucida handwriting';
-}
+} */
 
 body {
   display: flex;
