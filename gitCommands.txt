@@ -6,3 +6,6 @@ When pushing changes, run a push:
 	git add *
 	git commit -m "Type out your update message"
 	git push
+
+Running the git update script in powershell:
+	powershell -executionpolicy ByPass "c:\Users\coleh\Documents\Business\driessenTV\gitAutoUpdate.ps1"
