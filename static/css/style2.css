@@ -3,31 +3,30 @@
 *::after { box-sizing: border-box; }
 
 html,
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-  
-    width: 90%;
-    height: auto;
-    margin: 0;
-    padding: 0;
 
-    background-color: #3c3c3c;
+
+.left {
+  width: 75%;
 }
 
-
-
 .slideshow_container {
-  max-width: 960px;
+  max-width: 720px;
   position: relative;
-  margin: 10px;
+  
+}
+.carousel-inner {height: 300px;
+  
 }
 
 @keyframes opaqTransition {
   3% { transform: translateX( 0 ); }
   25% { transform: translateX( 0 ); }
-  28% { transform: translateX( -1280px ); }
-  100% { transform: translateX( -1280px ); }
+  28% { transform: translateX( -720px ); }
+  100% { transform: translateX( -720px ); }
+}
+@media screen and (max-width: 600px) 
+{
+  .column {
+    width: 100%;
+  }
 }
