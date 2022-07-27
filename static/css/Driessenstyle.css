@@ -3,6 +3,14 @@
  
   text-align: left; 
   background: #005DAA; 
+  padding-top: 60px;
+  padding-left: 20px;
+  
+}
+.body {
+  margin: 0;
+  background: #005DAA; 
+  padding-bottom: 10px;
   
 }
 
@@ -16,12 +24,13 @@
 }
 
 .left {
-  width: 65%;
+  width: 72%;
 }
 
 .right {
-  width: 35%;
+  width: 28%;
   text-align: center; 
+  background: #ffffff; 
 }
 
  
